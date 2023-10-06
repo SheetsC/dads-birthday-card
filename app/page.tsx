@@ -36,7 +36,7 @@ function Page() {
       {activeComponent === 'Hobbies' && <Hobbies hobby="grilling" />}
       {activeComponent === 'EndPage' && <EndPage />}
       {/* ... other hobbies */}
-      <button className='text-cyan-500 text-xl'onClick={switchComponent}>
+      <button className='text-cyan-500 text-2xl'onClick={switchComponent}>
         {activeComponent === 'Hobbies' ? 'Final ->' : 'Next'}
       </button>
     </motion.div>
