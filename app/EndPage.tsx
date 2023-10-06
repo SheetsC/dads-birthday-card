@@ -12,6 +12,11 @@ function EndPage(){
                 <source src="/BIRTHDAYCHUNE.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
+            <Image
+                src='/smiles.jpg'
+                width={500}
+                height={500}
+                alt="smiles"></Image>
         </div>
     )
 }
