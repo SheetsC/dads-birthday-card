@@ -5,7 +5,7 @@ function EndPage(){
         <div className="flex-col flex mx-auto items-center justify-center">
             <Image src="/family-photo.png" alt="Family Photo" width={700} height={500} />
             <br/>
-            <h1>We Love YOU
+            <h1 className='text-white'>We Love YOU
                 <br/> Happy Birthday Dad
             </h1>
             <video controls>
