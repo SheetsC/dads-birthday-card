@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
+  
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -15,6 +16,15 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }: {addUtilities:any}) {
+      const newUtilities = {
+        '.text-shadow': {
+          textShadow: '10px 10px 20px rgba(0, 0, 0, 0.7)',  // Adjust values to your preference
+        },
+      }
+      addUtilities(newUtilities);
+    }
+  ],
 }
 export default config

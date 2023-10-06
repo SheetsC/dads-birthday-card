@@ -16,12 +16,17 @@
   }
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url('https://d12oja0ew7x0i8.cloudfront.net/images/news/ImageForNews_59962_16626496484228215.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
 }
+
+

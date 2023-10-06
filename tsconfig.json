@@ -20,7 +20,7 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "framer-motion": ["node_modules/framer-motion"]
+      "framer-motion": ["./node_modules/framer-motion"]
     },
     
   },
